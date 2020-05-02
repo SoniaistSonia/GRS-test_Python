@@ -1,6 +1,6 @@
 """
 Function GRS_test(factor, resid, alpha) is to conduct GRS test according 
-to Gibbons, Ross & Shanken(1989) to recieve GRS-statistic and p-value.
+to Gibbons, Ross & Shanken(1989) to receive GRS-statistic and p-value.
 
 H0: alpha1=alpha2=...=alphaN
 
@@ -27,7 +27,6 @@ def GRS_test(factor, resid, alpha):
 
     if (T-N-L) < 0:
         print('can not conduct GRS test because T-N-L<0')
-        print(years)
         return
 
     factor = np.asmatrix(factor)                   # factor matrix (T, L)
