@@ -11,7 +11,7 @@ Parameters:
 
 Inputs:
   factor: matrix of FF factors with shape (T, L)
-  resid: matrix of residuals with shape (N, T)
+  resid: matrix of residuals with shape (T, N)
   alpha: matrix of intercepts with shape (N, 1)
 
 Outputs:
